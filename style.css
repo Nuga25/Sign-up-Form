@@ -29,6 +29,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 40%;
+    background-color: #87ceeb;
 }
 
 .logo-container {
