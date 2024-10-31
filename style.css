@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./bernard-hermant--IwbJJfoC80-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+}
+
+.logo-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 8rem;
+}
+
+.logo {
+    height: 100px;
+}
+
+.logo + h1 {
+    display: inline;
+    color: #fff;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 > div {
+    width: 60%;
+}
+
+.box2 > div > h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding: 10px;
+}
+
+.box2 > div > p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form>div>input {
+    display: block;
+    width: 95%;
+    padding: 5px;
+    border-radius: 8px;
+    height: 35px;
+    border: 0.5px solid #87ceeb;
+}
+
+form>div>label {
+    font-size: 1.2rem;
+}
+
+
+small, small > a {
+    color: #fff;
+}
